@@ -350,6 +350,7 @@ nav:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+  display: none;
 }
 
 .window__form {
@@ -357,6 +358,10 @@ nav:hover {
   height: 500px;background: white;
   border-radius: 6px;
   padding: 20px;
+}
+
+.window:target {
+  display: flex;
 }
 
 /* footer end */
